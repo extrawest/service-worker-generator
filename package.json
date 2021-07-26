@@ -1,0 +1,44 @@
+{
+  "name": "@extrawest/service-worker-generator",
+  "version": "1.1.0",
+  "description": "Utility tool to allow generate service-worker with environment variables",
+  "main": "./index.js",
+  "preferGlobal": true,
+  "bin": {
+    "generateSW": "index.js"
+  },
+  "scripts": {
+    "test": "generateSW"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/runtime": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "babel-preset-react-app": "^10.0.0",
+    "commander": "^8.0.0",
+    "dotenv-webpack": "^7.0.3",
+    "memory-fs": "^0.4.1",
+    "path": "^0.12.7",
+    "webpack": "^5.46.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/extrawest/service-worker-generator.git"
+  },
+  "keywords": [
+    "service-worker",
+    "env",
+    "environment",
+    "variables",
+    "generate",
+    "extrawest"
+  ],
+  "author": "Extrawest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/extrawest/service-worker-generator/issues"
+  },
+  "homepage": "https://github.com/extrawest/service-worker-generator#readme"
+}
