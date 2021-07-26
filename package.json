@@ -1,6 +1,6 @@
 {
   "name": "@extrawest/service-worker-generator",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Utility tool to allow generate service-worker with environment variables",
   "main": "./index.js",
   "preferGlobal": true,
