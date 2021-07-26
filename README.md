@@ -26,7 +26,7 @@ $ generateSW [options] `<file>`
 | Command | Description |
 | ----------------- |---------------------------------------------|
 | -e, --env [path]  | (./.env) Path to environment variables file |
-|-d, --output-path [path] | path of build artifacts [./build]      |
+| -o, --output-path [path] | path of build artifacts [./build]      |
 | -h, --help        |      Output usage information               |
 | -m, --mode [mode] |      Output mode (dev or build)                        |
 
