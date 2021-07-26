@@ -30,6 +30,13 @@ $ generateSW [options] `<file>`
 | -h, --help        |      Output usage information               |
 | -m, --mode [mode] |      Output mode (dev or build)                        |
 
+## Example
+
+```
+"build-sw": "generateSW --mode=build --env ./.env ./libs/sw/firebase-messaging-sw.js --output-path ./public",
+
+```
+
 ## License
 
 - See [LICENSE](/LICENSE)
