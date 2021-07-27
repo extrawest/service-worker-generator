@@ -1,3 +1,5 @@
 /node_modules
 /tests
 __tests__
+/.github
+.gitignore
