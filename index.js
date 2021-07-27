@@ -75,7 +75,7 @@ function compile(entry, mode) {
     },
     plugins: [
       new Dotenv({
-        path: program.env, // Path to .env file (this is the default)
+        path: program.opts().env, // Path to .env file (this is the default)
         safe: false, // load .env.example (defaults to "false" which does not use dotenv-safe)
         silent: true,
         systemvars: true // Load all system variables and REACT .env as well
